@@ -29,38 +29,42 @@ h1{
     top:50%;
     left:25%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 #Upgrades{
     position:absolute; 
-    top:60%;
+    top:57%;
     left:80%;
     transform: translate(-50%, -50%);
     border: 3px solid rgb(255, 255, 255);
     border-radius: 7px;
-    padding: 15px
+    padding: 15px;
 }
 
 #Upgrade1{
     border: 3px solid rgb(255, 255, 255);
     border-radius: 7px;
     padding: 3px;
+    text-align: center;
 }
 
 img{
     width: 100%;
+    max-width: 200px;
 }
-
 #Upgrade2{
     border: 3px solid rgb(255, 255, 255);
     border-radius: 7px;
     padding: 3px;
+    text-align: center;
 }
 
 #Upgrade3{
     border: 3px solid rgb(255, 255, 255);
     border-radius: 7px;
     padding: 3px;
+    text-align: center;
 }
 
 #reset{
@@ -72,10 +76,6 @@ img{
 
 #reset:hover{
     background-color: rgb(92, 217, 255);
-}
-
-#reset:active{
-    width: 50px;
 }
 
 #principal:hover{
@@ -96,6 +96,7 @@ img{
 
 #Upgrade2:active{
     width: 90%;
+    height: 90%;
 }
 
 #Upgrade3:hover{
