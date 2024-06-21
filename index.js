@@ -23,7 +23,7 @@ clique.addEventListener('click', () => {
     if(pontuação < 500){
         pontuação += acumulador;
     } else {
-        window.alert('Você Ganhou o jogo');
+        window.alert('Você Ganhou o jogo, se quiser reinicie');
     }
     updatePonto();
 });
@@ -32,7 +32,9 @@ upgrade1.addEventListener('click', () => {
     if(pontuação >= 10){
         pontuação -= 10;
         acumulador += 1;
-    } else {
+    } else if(pontuação >= 500) {
+        window.alert('Você ja ganhou, caso queira continuar reinicie seu jogo')
+    } else{
         window.alert('Você não possui dinheiro suficiente');
     }
     updateAcumulador();
@@ -43,7 +45,9 @@ upgrade2.addEventListener('click', () => {
     if(pontuação >= 50){
         pontuação -= 50;
         acumulador += 8;
-    } else {
+    } else if(pontuação >= 500) {
+        window.alert('Você ja ganhou, caso queira continuar reinicie seu jogo')
+    } else{
         window.alert('Você não possui dinheiro suficiente');
     }
     updateAcumulador();
@@ -54,7 +58,9 @@ upgrade3.addEventListener('click', () => {
     if(pontuação >= 100){
         pontuação -= 100;
         acumulador += 20;
-    } else {
+    } else if(pontuação >= 500) {
+        window.alert('Você ja ganhou, caso queira continuar reinicie seu jogo')
+    } else{
         window.alert('Você não possui dinheiro suficiente');
     }
     updateAcumulador();
