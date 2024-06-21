@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: url(pexels-alex-andrews-271121-816608.jpg);
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    text-align: center; 
+    margin-top: 1%;
+    border-top: 3px solid rgb(255, 255, 255);
+    padding-top: 1%;
+}
+
+#Pontos{
+    text-align: center;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-bottom: 1%;
+}
+
+#Principal{
+    position:absolute; 
+    top:50%;
+    left:25%;
+    transform: translate(-50%, -50%);
+}
+
+#Upgrades{
+    position:absolute; 
+    top:60%;
+    left:80%;
+    transform: translate(-50%, -50%);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 15px
+}
+
+#Upgrade1{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 3px;
+}
+
+img{
+    width: 100%;
+}
+
+#Upgrade2{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 3px;
+}
+
+#Upgrade3{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 3px;
+}
+
+#reset{
+    position:absolute; 
+    top:80%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+#reset:hover{
+    background-color: rgb(92, 217, 255);
+}
+
+#reset:active{
+    width: 50px;
+}
+
+#principal:hover{
+    background-color: rgb(92, 217, 255);
+}
+
+#Upgrade1:hover{
+    background-color: rgb(92, 217, 255);
+}
+
+#Upgrade1:active{
+    width: 90%;
+}
+
+#Upgrade2:hover{
+    background-color: rgb(92, 217, 255);
+}
+
+#Upgrade2:active{
+    width: 90%;
+}
+
+#Upgrade3:hover{
+    background-color: rgb(92, 217, 255);
+}
+
+#Upgrade3:active{
+    width: 90%;
+}
