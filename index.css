@@ -26,15 +26,19 @@ h1{
 
 #Principal{
     position:absolute; 
-    top:50%;
+    top:60%;
     left:25%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
+#Clique:active{
+    width: 90%;
+}
+
 #Upgrades{
     position:absolute; 
-    top:57%;
+    top:70%;
     left:80%;
     transform: translate(-50%, -50%);
     border: 3px solid rgb(255, 255, 255);
@@ -69,7 +73,7 @@ img{
 
 #reset{
     position:absolute; 
-    top:80%;
+    top:90%;
     left:50%;
     transform: translate(-50%, -50%);
 }
